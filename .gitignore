@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Transpiled files
+build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+src/**/*.js
+src/**/*.map
+dist/test
+/index.js
+/index.d.ts
+
+dist/
+
+# Optional npm cache directory
+.npm
+test.png
+
+tsconfig.tsbuildinfo
+yarn-error.log
