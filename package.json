@@ -1,5 +1,5 @@
 {
-  "name": "etsy-v2-ts",
+  "name": "@granga/etsy-v2-ts",
   "version": "0.0.1",
   "description": "Etsy API v2 wrapper written in typescript.",
   "main": "dist/index.js",

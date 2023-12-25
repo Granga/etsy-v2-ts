@@ -7,7 +7,12 @@ import { Etsy } from "../src";
 import { IListing, IListingImage, IListingInventory, IShop, IUser } from "../src/api";
 
 (async () => {
-  const credentials = await fs.readJSON("./examples/api-credentials.json");
+  const credentials = await fs.readJSON("./examples/api-credentials.json") as {
+    apiKey: string,
+    apiSecret: string,
+    tokenKey?: string,
+    tokenSecret?: string
+  };
 
   let client = new Etsy({
     apiKeys: {
