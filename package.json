@@ -4,6 +4,7 @@
   "description": "Etsy API v2 wrapper written in typescript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "private": false,
   "dependencies": {
     "axios": "~0.21.4",
     "bottleneck": "^2.19.5",
